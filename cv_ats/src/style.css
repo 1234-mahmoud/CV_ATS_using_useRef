@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 10px;
+}
+.form_ {
+  border: 1px solid black;
+  width: 95%;
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  position: relative;
+}
+.info {
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 60%;
+  margin: 10px;
+  text-indent: 10px;
+  background-color: rgba(199, 199, 199, 0.384);
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  width: 200px;
+  text-align: right;
+}
+
+.info .name {
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .data {
+  /* border:2px solid rgb(0, 179, 255); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .data .mob,
+.info .data .mail,
+.info .data .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_ .objectives {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  margin: 10px auto;
+}
+
+.objectives textarea {
+  height: 150px;
+}
+.form_ .education {
+  border-bottom: 2px solid black;
+}
+.form_ .education .university,
+.form_ .education .qualification,
+.form_ .education .gradYear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education input {
+  width: 50%;
+}
+
+.form_ .experience {
+  border-bottom: 2px solid black;
+}
+
+.experience .compName,
+.experience .task {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.experience .job_task {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -30px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 40px;
+}
+.form_ .skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.form_ .courses,
+.form_ .vol {
+  border-bottom: 2px solid black;
+}
+
+.form_ .langs {
+  margin-bottom: 60px;
+}
+
+.form_ .ctrlBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.form_ .ctrlBtns .save,
+.form_ .ctrlBtns .show {
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+.ctrlBtns button:nth-child(1) {
+  background-color: rgb(29, 160, 24);
+}
+.ctrlBtns button:nth-child(2) {
+  background-color: rgb(7, 76, 214);
+}
+
+@media (max-width: 668px) {
+  .skills {
+    flex-direction: column;
+  }
+
+  .info .data {
+    flex-direction: column;
+  }
+
+  .form_ .courses input,
+  .form_ .skills input,
+  .form_ .vol input,
+  .form_ .langs input {
+    width: 90%;
+  }
+}
+
+/* ---------------------------------------------final data style --------------------------- */
+dialog {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding:10px;
+  background-color: rgb(203, 241, 241);
+  box-shadow: -6px -3px 43px -17px rgb(143, 143, 143);
+  border: none;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+
+dialog h1{
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 2px solid black;
+
+}
+dialog .saved_info {
+  display: flex;
+  flex-direction: column;
+  
+}
+.saved_info h3 {
+  text-align: center;
+}
+
+.saved_info .user_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_data span {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+dialog .saved_objectives {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+dialog .edu_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.edu_data span:nth-child(2),
+.edu_data span:nth-child(3) {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+dialog .comp_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.comp_data span:nth-child(2),
+.comp_data .job_task_data {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}
+.comp_data .job_task_data {
+  margin-left: 30px;
+}
+.job_task_data li img{
+margin-left: 10px;
+}
+li::marker {
+  font-size: 15pt;
+}
+
+dialog .skills_data{
+ width: 90%;
+ margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+dialog .dailog_btns_ctrl{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dailog_btns_ctrl button{
+  width: 150px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.dailog_btns_ctrl button:nth-child(1){
+  background-color:rgb(255, 201, 4) ;
+}
+.dailog_btns_ctrl button:nth-child(2){
+  background-color: rgb(91, 91, 90);
+}
+.dailog_btns_ctrl button:nth-child(3){
+  background-color: rgb(143, 225, 10);
+}
+
+button{
+  border:none;
+  margin: 10px;
+  width: 200px;
+  padding:5px 10px;
+  border-radius: 10px;
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(60, 197, 60);
+}
