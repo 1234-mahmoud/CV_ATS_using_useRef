@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/1234-mahmoud/CV_ATS_using_useRef.git/static/css/main.51e7eb38.css",
+    "main.js": "/1234-mahmoud/CV_ATS_using_useRef.git/static/js/main.acf00474.js",
+    "static/media/edit-3-svgrepo-com.svg": "/1234-mahmoud/CV_ATS_using_useRef.git/static/media/edit-3-svgrepo-com.2935c78addbd3a2cf495e82faa1a52ef.svg",
+    "index.html": "/1234-mahmoud/CV_ATS_using_useRef.git/index.html",
+    "static/media/done-v-svgrepo-com.svg": "/1234-mahmoud/CV_ATS_using_useRef.git/static/media/done-v-svgrepo-com.edcb06ef6873208f81389b878280f2d4.svg",
+    "main.51e7eb38.css.map": "/1234-mahmoud/CV_ATS_using_useRef.git/static/css/main.51e7eb38.css.map",
+    "main.acf00474.js.map": "/1234-mahmoud/CV_ATS_using_useRef.git/static/js/main.acf00474.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e7eb38.css",
+    "static/js/main.acf00474.js"
+  ]
+}
