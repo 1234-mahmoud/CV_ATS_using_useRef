@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CV_ATS_using_useRef.git/static/css/main.51e7eb38.css",
-    "main.js": "/CV_ATS_using_useRef.git/static/js/main.36704f28.js",
-    "static/media/edit-3-svgrepo-com.svg": "/CV_ATS_using_useRef.git/static/media/edit-3-svgrepo-com.2935c78addbd3a2cf495e82faa1a52ef.svg",
-    "index.html": "/CV_ATS_using_useRef.git/index.html",
-    "static/media/done-v-svgrepo-com.svg": "/CV_ATS_using_useRef.git/static/media/done-v-svgrepo-com.edcb06ef6873208f81389b878280f2d4.svg",
-    "main.51e7eb38.css.map": "/CV_ATS_using_useRef.git/static/css/main.51e7eb38.css.map",
-    "main.36704f28.js.map": "/CV_ATS_using_useRef.git/static/js/main.36704f28.js.map"
+    "main.css": "/CV_ATS_using_useRef/static/css/main.51e7eb38.css",
+    "main.js": "/CV_ATS_using_useRef/static/js/main.81a032a9.js",
+    "static/media/edit-3-svgrepo-com.svg": "/CV_ATS_using_useRef/static/media/edit-3-svgrepo-com.2935c78addbd3a2cf495e82faa1a52ef.svg",
+    "index.html": "/CV_ATS_using_useRef/index.html",
+    "static/media/done-v-svgrepo-com.svg": "/CV_ATS_using_useRef/static/media/done-v-svgrepo-com.edcb06ef6873208f81389b878280f2d4.svg",
+    "main.51e7eb38.css.map": "/CV_ATS_using_useRef/static/css/main.51e7eb38.css.map",
+    "main.81a032a9.js.map": "/CV_ATS_using_useRef/static/js/main.81a032a9.js.map"
   },
   "entrypoints": [
     "static/css/main.51e7eb38.css",
-    "static/js/main.36704f28.js"
+    "static/js/main.81a032a9.js"
   ]
 }
